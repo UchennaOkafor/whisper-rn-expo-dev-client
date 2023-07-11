@@ -23,7 +23,7 @@ export default function App() {
         </Text>
       </Text>
       <TouchableOpacity style={styles.buttonContainer} onPress={loadModelFromUri}>
-        <Text style={styles.buttonText}>Download Model from URL</Text>
+        <Text style={styles.buttonText}>Initialize Model from URL</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
