@@ -30,8 +30,7 @@ export default function App() {
 
   async function loadModelFromAssets() {
     const whisperContext = await initWhisper({
-      filePath: "ggml-tiny.bin",
-      isBundleAsset: true,
+      filePath: require("./ggml-tiny.bin"),
     });
 
     await startTranscribing(whisperContext);
