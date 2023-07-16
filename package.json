@@ -18,7 +18,7 @@
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.8",
-    "whisper.rn": "0.3.0-rc.5"
+    "whisper.rn": "0.3.0-rc.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
